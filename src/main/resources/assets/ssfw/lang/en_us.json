@@ -1,0 +1,13 @@
+{
+  "itemGroup.ssfw": "Example Mod Tab",
+  "block.ssfw.example_block": "Example Block",
+  "item.ssfw.example_item": "Example Item",
+
+  "ssfw.configuration.title": "SimpleSpaceFrameWork Configs",
+  "ssfw.configuration.section.ssfw.common.toml": "SimpleSpaceFrameWork Configs",
+  "ssfw.configuration.section.ssfw.common.toml.title": "SimpleSpaceFrameWork Configs",
+  "ssfw.configuration.items": "Item List",
+  "ssfw.configuration.logDirtBlock": "Log Dirt Block",
+  "ssfw.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ssfw.configuration.magicNumber": "Magic Number"
+}
