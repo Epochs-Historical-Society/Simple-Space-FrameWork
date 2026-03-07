@@ -8,6 +8,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.world.phys.Vec3;
 
 @EventBusSubscriber(
         modid = SimpleSpaceFrameWork.MODID,
@@ -37,39 +38,26 @@ public class SimpleSpaceFrameWorkClient {
 
         PoseStack poseStack = event.getPoseStack();
 
-        net.minecraft.world.phys.Vec3 camera =net.minecraft.client.Minecraft.getInstance()
-            .gameRenderer.getMainCamera()
-            .getPosition();
-        net.minecraft.client.player.LocalPlayer player =net.minecraft.client.Minecraft.getInstance()
-            .player;
-
-        if (player == null) return;
-
         double x = 0.5;
         double y = 120.0;
         double z = 0.5;
 
+        net.minecraft.world.phys.Vec3 cam = event.getCamera().getPosition();
+
         poseStack.pushPose();
 
-
-        poseStack.translate(x,y,z);
-        poseStack.translate(-camera.x, -camera.y, -camera.z);
-        poseStack.scale(2.0F, 2.0F, 2.0F);
-
-        if (!loggedFirstRender) {
-            SimpleSpaceFrameWork.LOGGER.info(
-                    "Rendering Veil test cube at world position ({}, {}, {})",
-                    x, y, z
-            );
-            loggedFirstRender = true;
-        }
-
-        VeilCubeRenderer.render(
-            poseStack,
-            event.getProjectionMatrix()
+        poseStack.translate(
+            x - cam.x,
+            y - cam.y,
+            z - cam.z
         );
 
+
+        VeilCubeRenderer.render(poseStack, event.getProjectionMatrix());
+
         poseStack.popPose();
+
+
     }
 
 
