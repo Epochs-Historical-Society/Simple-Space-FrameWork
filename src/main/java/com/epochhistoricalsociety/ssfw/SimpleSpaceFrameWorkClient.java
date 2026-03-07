@@ -37,15 +37,24 @@ public class SimpleSpaceFrameWorkClient {
 
         PoseStack poseStack = event.getPoseStack();
 
-        poseStack.pushPose();
+        net.minecraft.world.phys.Vec3 camera =net.minecraft.client.Minecraft.getInstance()
+            .gameRenderer.getMainCamera()
+            .getPosition();
+        net.minecraft.client.player.LocalPlayer player =net.minecraft.client.Minecraft.getInstance()
+            .player;
 
-        // Render a cube at a fixed world position near spawn
+        if (player == null) return;
+
         double x = 0.5;
         double y = 120.0;
         double z = 0.5;
 
-        poseStack.translate(x, y, z);
-        poseStack.scale(1.0F, 1.0F, 1.0F);
+        poseStack.pushPose();
+
+
+        poseStack.translate(x,y,z);
+        poseStack.translate(-camera.x, -camera.y, -camera.z);
+        poseStack.scale(2.0F, 2.0F, 2.0F);
 
         if (!loggedFirstRender) {
             SimpleSpaceFrameWork.LOGGER.info(

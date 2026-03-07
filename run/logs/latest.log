@@ -1,13 +1,13 @@
-[07Mar2026 20:06:39.710] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/lily-snow/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
-[07Mar2026 20:06:39.713] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 21.0.10+7
-[07Mar2026 20:06:39.714] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.10 by Arch Linux; OS Linux arch amd64 version 6.18.13-arch1-1
-[07Mar2026 20:06:39.780] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[07Mar2026 20:06:39.865] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[07Mar2026 20:06:39.914] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[07Mar2026 20:06:39.976] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/lily-snow/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
-[07Mar2026 20:06:40.028] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics (radeonsi, phoenix, ACO, DRM 3.64, 6.18.13-arch1-1) GL version 4.6 (Core Profile) Mesa 26.0.1-arch1.1, AMD
-[07Mar2026 20:06:40.279] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[07Mar2026 20:06:40.280] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[07Mar2026 21:10:08.629] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.219, --assetIndex, 17, --assetsDir, /home/lily-snow/.gradle/caches/neoformruntime/assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.219, --fml.neoFormVersion, 20240808.144430]
+[07Mar2026 21:10:08.631] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 21.0.10+7
+[07Mar2026 21:10:08.632] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.10 by Arch Linux; OS Linux arch amd64 version 6.18.13-arch1-1
+[07Mar2026 21:10:08.707] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[07Mar2026 21:10:08.782] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[07Mar2026 21:10:08.832] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[07Mar2026 21:10:08.888] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/lily-snow/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23126!/ Service=ModLauncher Env=CLIENT
+[07Mar2026 21:10:08.934] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics (radeonsi, phoenix, ACO, DRM 3.64, 6.18.13-arch1-1) GL version 4.6 (Core Profile) Mesa 26.0.1-arch1.1, AMD
+[07Mar2026 21:10:09.200] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[07Mar2026 21:10:09.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -15,43 +15,43 @@
 		NeoForge 21.1.219 (neoforge)
 		SimpleSpaceFrameWork 1.0.0 (ssfw)
 		Veil 3.1.2 (veil)
-[07Mar2026 20:06:40.696] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[07Mar2026 20:06:40.716] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/lily-snow/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
-[07Mar2026 20:06:40.759] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.759] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.760] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.760] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.760] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.imgui.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.761] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.761] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.761] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.762] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.762] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.763] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.763] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.763] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.764] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.764] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:40.765] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Mar2026 20:06:41.076] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
-[07Mar2026 20:06:41.078] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
-[07Mar2026 20:06:41.138] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[07Mar2026 20:06:42.202] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 159 milliseconds
-[07Mar2026 20:06:48.749] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07Mar2026 20:06:48.750] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07Mar2026 20:06:48.752] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07Mar2026 20:06:48.753] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07Mar2026 20:06:48.753] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07Mar2026 20:06:48.878] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/lily-snow/Documents/Simple-Space-FrameWork/build/moddev/artifacts/neoforge-21.1.219.jar%23177!/assets/.mcassetsroot' uses unexpected schema
-[07Mar2026 20:06:48.878] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/lily-snow/Documents/Simple-Space-FrameWork/build/moddev/artifacts/neoforge-21.1.219.jar%23177!/data/.mcassetsroot' uses unexpected schema
-[07Mar2026 20:06:48.895] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07Mar2026 20:06:48.902] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[07Mar2026 20:06:48.958] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[07Mar2026 20:06:50.586] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[07Mar2026 20:06:50.601] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
-[07Mar2026 20:06:50.971] [Render thread/INFO] [Veil/]: GL Debug supported
-[07Mar2026 20:06:51.179] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [ssfw]
-[07Mar2026 20:06:51.362] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
+[07Mar2026 21:10:09.623] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[07Mar2026 21:10:09.643] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.219, --gameDir, ., --assetsDir, /home/lily-snow/.gradle/caches/neoformruntime/assets, --assetIndex, 17]
+[07Mar2026 21:10:09.693] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.693] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.694] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.694] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.694] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.imgui.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.695] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.695] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.695] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.696] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.696] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.696] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.697] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.697] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.697] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.698] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:09.698] [main/WARN] [mixin/]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Mar2026 21:10:10.075] [main/WARN] [mixin/]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[07Mar2026 21:10:10.076] [main/WARN] [mixin/]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[07Mar2026 21:10:10.139] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07Mar2026 21:10:11.152] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 162 milliseconds
+[07Mar2026 21:10:17.593] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Mar2026 21:10:17.594] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Mar2026 21:10:17.595] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Mar2026 21:10:17.596] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Mar2026 21:10:17.597] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Mar2026 21:10:17.737] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/lily-snow/Documents/Simple-Space-FrameWork/build/moddev/artifacts/neoforge-21.1.219.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[07Mar2026 21:10:17.737] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/lily-snow/Documents/Simple-Space-FrameWork/build/moddev/artifacts/neoforge-21.1.219.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[07Mar2026 21:10:17.753] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07Mar2026 21:10:17.759] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07Mar2026 21:10:17.810] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[07Mar2026 21:10:19.422] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[07Mar2026 21:10:19.442] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.219, for MC 1.21.1
+[07Mar2026 21:10:19.867] [Render thread/INFO] [Veil/]: GL Debug supported
+[07Mar2026 21:10:20.069] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [ssfw]
+[07Mar2026 21:10:20.244] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
 com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%23110!/:?]
 	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23110!/:?]
@@ -173,98 +173,105 @@ Native library (linux-x86-64/libflite.so) not found in resource path (/home/lily
 		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 		at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
-[07Mar2026 20:06:51.386] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/veil, mod/ssfw, mod/neoforge
-[07Mar2026 20:06:51.399] [Worker-Main-3/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: HELLO FROM COMMON SETUP
-[07Mar2026 20:06:51.399] [Worker-Main-3/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: DIRT BLOCK >> minecraft:dirt
-[07Mar2026 20:06:51.400] [Worker-Main-3/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: The magic number is... 42
-[07Mar2026 20:06:51.400] [Worker-Main-3/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: ITEM >> minecraft:iron_ingot
-[07Mar2026 20:06:51.503] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[07Mar2026 20:06:51.617] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[07Mar2026 20:06:51.634] [Worker-Main-12/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: Registered Veil cube renderer on NeoForge.EVENT_BUS
-[07Mar2026 20:06:52.102] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ssfw:blockstates/example_block.json' missing model for variant: 'ssfw:example_block#'
-[07Mar2026 20:06:52.105] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ssfw:item/example_block' referenced from: ssfw:item/example_block: java.io.FileNotFoundException: ssfw:models/item/example_block.json
-[07Mar2026 20:06:52.107] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ssfw:item/example_item' referenced from: ssfw:item/example_item: java.io.FileNotFoundException: ssfw:models/item/example_item.json
-[07Mar2026 20:06:52.489] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
-[07Mar2026 20:06:52.573] [Render thread/INFO] [Veil/]: Loaded 18 shaders from: pinwheel/shaders/program
-[07Mar2026 20:06:52.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[07Mar2026 20:06:52.692] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[07Mar2026 20:06:52.742] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Ryzen HD Audio Controller Analog Surround 4.0
-[07Mar2026 20:06:52.743] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[07Mar2026 20:06:52.847] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[07Mar2026 20:06:52.874] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[07Mar2026 20:06:52.875] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[07Mar2026 20:06:52.876] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[07Mar2026 20:06:52.877] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[07Mar2026 20:06:52.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[07Mar2026 20:06:52.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[07Mar2026 20:06:52.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[07Mar2026 20:06:52.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[07Mar2026 20:06:53.007] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[07Mar2026 20:06:53.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[07Mar2026 20:06:53.010] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[07Mar2026 20:06:53.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[07Mar2026 20:06:53.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[07Mar2026 20:06:53.028] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[07Mar2026 20:06:53.070] [Render thread/INFO] [Veil/]: Loaded 2 ImGui fonts
-[07Mar2026 20:06:53.070] [Render thread/INFO] [Veil/]: Loaded 2 framebuffers
-[07Mar2026 20:06:53.087] [Render thread/INFO] [Veil/]: Loaded 3 post pipelines
-[07Mar2026 20:06:53.094] [Render thread/INFO] [Veil/]: Loaded 4 render types
-[07Mar2026 20:06:53.095] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
-[07Mar2026 20:06:53.097] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
-[07Mar2026 20:06:53.097] [Render thread/INFO] [Veil/]: Loaded 0 templates
-[07Mar2026 20:06:53.097] [Render thread/INFO] [Veil/]: Loaded 0 modules
-[07Mar2026 20:06:53.100] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[07Mar2026 20:06:53.106] [Render thread/INFO] [Veil/]: Built veil:jetbrains_mono
-[07Mar2026 20:06:53.109] [Render thread/INFO] [Veil/]: Built veil:remixicon
-[07Mar2026 20:06:53.206] [Render thread/INFO] [Veil/]: Compiled 57 vanilla shaders in 142.6 ms
-[07Mar2026 20:06:54.096] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
-[07Mar2026 20:06:56.907] [Render thread/ERROR] [net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings/]: Unknown biome, defaulting to plains
-[07Mar2026 20:06:57.127] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[07Mar2026 20:06:57.227] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[07Mar2026 20:07:00.171] [Render thread/ERROR] [net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings/]: Unknown biome, defaulting to plains
-[07Mar2026 20:07:00.268] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[07Mar2026 20:07:00.301] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[07Mar2026 20:07:03.773] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[07Mar2026 20:07:03.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07Mar2026 20:07:04.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07Mar2026 20:07:04.090] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[07Mar2026 20:07:04.224] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[07Mar2026 20:07:04.224] [Server thread/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: HELLO from server starting
-[07Mar2026 20:07:04.233] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 143 ms
-[07Mar2026 20:07:04.246] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[07Mar2026 20:07:04.246] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[07Mar2026 20:07:04.718] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:54442d19] logged in with entity id 1 at (6.5, -60.0, 3.5)
-[07Mar2026 20:07:04.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[07Mar2026 20:07:05.144] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[07Mar2026 20:07:05.235] [Render thread/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: Rendering Veil test cube at world position (0.5, 120.0, 0.5)
-[07Mar2026 20:07:05.251] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
-[07Mar2026 20:07:09.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 120.000000, 5.500000]
-[07Mar2026 20:07:09.195] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 120.000000, 5.500000
-[07Mar2026 20:07:18.726] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Mar2026 20:07:18.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Mar2026 20:07:18.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
-[07Mar2026 20:07:18.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Mar2026 20:07:18.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Mar2026 20:07:46.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 120.000000, 5.500000]
-[07Mar2026 20:07:46.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 120.000000, 5.500000
-[07Mar2026 20:08:14.476] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Mar2026 20:08:14.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Mar2026 20:08:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
-[07Mar2026 20:08:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Mar2026 20:08:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Mar2026 20:08:36.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 120.000000, 5.500000]
-[07Mar2026 20:08:36.943] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 120.000000, 5.500000
-[07Mar2026 20:08:41.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 120.000000, 0.500000]
-[07Mar2026 20:08:41.676] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 120.000000, 0.500000
-[07Mar2026 20:08:48.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 120.000000, 0.500000]
-[07Mar2026 20:08:48.792] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 120.000000, 0.500000
-[07Mar2026 20:10:06.976] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Mar2026 20:10:06.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Mar2026 20:10:06.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
-[07Mar2026 20:10:06.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Mar2026 20:10:06.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Mar2026 20:10:11.276] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Mar2026 20:10:11.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Mar2026 20:10:11.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
-[07Mar2026 20:10:11.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Mar2026 20:10:11.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Mar2026 21:10:20.258] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/veil, mod/ssfw, mod/neoforge
+[07Mar2026 21:10:20.268] [Worker-Main-4/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: HELLO FROM COMMON SETUP
+[07Mar2026 21:10:20.269] [Worker-Main-4/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: DIRT BLOCK >> minecraft:dirt
+[07Mar2026 21:10:20.269] [Worker-Main-4/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: The magic number is... 42
+[07Mar2026 21:10:20.269] [Worker-Main-4/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: ITEM >> minecraft:iron_ingot
+[07Mar2026 21:10:20.338] [Worker-Main-14/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[07Mar2026 21:10:20.414] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[07Mar2026 21:10:20.415] [Worker-Main-13/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: Registered Veil cube renderer on NeoForge.EVENT_BUS
+[07Mar2026 21:10:20.893] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ssfw:blockstates/example_block.json' missing model for variant: 'ssfw:example_block#'
+[07Mar2026 21:10:20.896] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ssfw:item/example_block' referenced from: ssfw:item/example_block: java.io.FileNotFoundException: ssfw:models/item/example_block.json
+[07Mar2026 21:10:20.898] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ssfw:item/example_item' referenced from: ssfw:item/example_item: java.io.FileNotFoundException: ssfw:models/item/example_item.json
+[07Mar2026 21:10:21.304] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[07Mar2026 21:10:21.375] [Render thread/INFO] [Veil/]: Loaded 18 shaders from: pinwheel/shaders/program
+[07Mar2026 21:10:21.500] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[07Mar2026 21:10:21.500] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[07Mar2026 21:10:21.548] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Ryzen HD Audio Controller Analog Surround 4.0
+[07Mar2026 21:10:21.548] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[07Mar2026 21:10:21.645] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07Mar2026 21:10:21.672] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[07Mar2026 21:10:21.672] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07Mar2026 21:10:21.673] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07Mar2026 21:10:21.674] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[07Mar2026 21:10:21.682] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07Mar2026 21:10:21.682] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[07Mar2026 21:10:21.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07Mar2026 21:10:21.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07Mar2026 21:10:21.807] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[07Mar2026 21:10:21.810] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07Mar2026 21:10:21.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07Mar2026 21:10:21.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[07Mar2026 21:10:21.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[07Mar2026 21:10:21.825] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[07Mar2026 21:10:21.864] [Render thread/INFO] [Veil/]: Loaded 2 ImGui fonts
+[07Mar2026 21:10:21.864] [Render thread/INFO] [Veil/]: Loaded 2 framebuffers
+[07Mar2026 21:10:21.880] [Render thread/INFO] [Veil/]: Loaded 3 post pipelines
+[07Mar2026 21:10:21.887] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[07Mar2026 21:10:21.887] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[07Mar2026 21:10:21.889] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[07Mar2026 21:10:21.890] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[07Mar2026 21:10:21.890] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[07Mar2026 21:10:21.892] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[07Mar2026 21:10:21.898] [Render thread/INFO] [Veil/]: Built veil:jetbrains_mono
+[07Mar2026 21:10:21.901] [Render thread/INFO] [Veil/]: Built veil:remixicon
+[07Mar2026 21:10:21.981] [Render thread/INFO] [Veil/]: Compiled 57 vanilla shaders in 123.7 ms
+[07Mar2026 21:10:22.872] [Render thread/INFO] [Veil/]: Finished uploading vanilla shaders
+[07Mar2026 21:10:25.920] [Render thread/ERROR] [net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings/]: Unknown biome, defaulting to plains
+[07Mar2026 21:10:26.114] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[07Mar2026 21:10:26.190] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[07Mar2026 21:10:26.513] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[07Mar2026 21:10:26.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Mar2026 21:10:26.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Mar2026 21:10:26.863] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 21:10:26.907] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[07Mar2026 21:10:26.908] [Server thread/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: HELLO from server starting
+[07Mar2026 21:10:26.922] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 201 ms
+[07Mar2026 21:10:26.953] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[07Mar2026 21:10:26.953] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[07Mar2026 21:10:27.319] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:9309772f] logged in with entity id 7 at (0.3351523412062301, 123.6193340532226, 1.163775912169815)
+[07Mar2026 21:10:27.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07Mar2026 21:10:27.816] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[07Mar2026 21:10:27.899] [Render thread/INFO] [com.epochhistoricalsociety.ssfw.SimpleSpaceFrameWork/]: Rendering Veil test cube at world position (0.5, 120.0, 0.5)
+[07Mar2026 21:10:27.921] [Render thread/INFO] [Veil/]: Multi-Bind supported, using core
+[07Mar2026 21:10:38.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 130.000000, 0.500000]
+[07Mar2026 21:10:38.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 130.000000, 0.500000
+[07Mar2026 21:10:52.709] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Mar2026 21:10:52.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Mar2026 21:10:52.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Mar2026 21:10:52.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
+[07Mar2026 21:10:52.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Mar2026 21:10:56.709] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Mar2026 21:10:56.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Mar2026 21:10:56.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Mar2026 21:10:56.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
+[07Mar2026 21:10:56.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Mar2026 21:11:25.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No entity was found
+[07Mar2026 21:12:08.335] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[07Mar2026 21:12:08.335] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...ssfw:space<--[HERE]
+[07Mar2026 21:12:15.934] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
+[07Mar2026 21:12:15.935] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...:space run<--[HERE]
+[07Mar2026 21:12:26.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 0.500000, 0.000000, 0.500000]
+[07Mar2026 21:12:26.369] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 0.500000, 0.000000, 0.500000
+[07Mar2026 21:12:46.659] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Mar2026 21:12:46.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Mar2026 21:12:46.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Mar2026 21:12:46.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
+[07Mar2026 21:12:46.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Mar2026 21:13:46.566] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07Mar2026 21:13:46.611] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[07Mar2026 21:13:46.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07Mar2026 21:13:46.615] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[07Mar2026 21:13:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Mar2026 21:13:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Mar2026 21:13:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Mar2026 21:13:47.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Mar2026 21:13:47.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Mar2026 21:13:47.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ssfw:space
+[07Mar2026 21:13:47.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Mar2026 21:13:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (7)): All chunks are saved
+[07Mar2026 21:13:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2026 21:13:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (space): All chunks are saved
+[07Mar2026 21:13:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2026 21:13:47.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
