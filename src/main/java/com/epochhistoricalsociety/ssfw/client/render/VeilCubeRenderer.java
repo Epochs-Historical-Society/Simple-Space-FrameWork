@@ -33,8 +33,8 @@ public class VeilCubeRenderer {
             return;
         }
 
-        Matrix4f modelView = new Matrix4f(poseStack.last().pose());
-        modelView.mul(Minecraft.getInstance().gameRenderer.getMainCamera().rotation());
+        Matrix4f modelView = poseStack.last().pose();
+
         shader.setDefaultUniforms(VertexFormat.Mode.QUADS, modelView, projection);
         shader.bind();
 
