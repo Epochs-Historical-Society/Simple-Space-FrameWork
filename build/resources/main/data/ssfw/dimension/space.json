@@ -1,0 +1,12 @@
+{
+  "type": "ssfw:space",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ssfw:space",
+      "layers": [
+      ],
+      "structure_overrides": []
+    }
+  }
+}
