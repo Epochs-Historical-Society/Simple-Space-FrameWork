@@ -29,3 +29,4 @@ public class SimpleSpaceFrameWorkClient {
         SimpleSpaceFrameWork.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 }
+
