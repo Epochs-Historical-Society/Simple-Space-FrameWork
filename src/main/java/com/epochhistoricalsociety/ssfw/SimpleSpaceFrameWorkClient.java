@@ -1,31 +1,66 @@
 package com.epochhistoricalsociety.ssfw;
 
-import net.minecraft.client.Minecraft;
+import com.epochhistoricalsociety.ssfw.client.render.VeilCubeRenderer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.neoforge.client.gui.ConfigurationScreen;
-import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
+import net.neoforged.neoforge.common.NeoForge;
 
-// This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = SimpleSpaceFrameWork.MODID, dist = Dist.CLIENT)
-// You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = SimpleSpaceFrameWork.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(
+        modid = SimpleSpaceFrameWork.MODID,
+        bus = EventBusSubscriber.Bus.MOD,
+        value = Dist.CLIENT
+)
 public class SimpleSpaceFrameWorkClient {
-    public SimpleSpaceFrameWorkClient(ModContainer container) {
-        // Allows NeoForge to create a config screen for this mod's configs.
-        // The config screen is accessed by going to the Mods screen > clicking on your mod > clicking on config.
-        // Do not forget to add translations for your config options to the en_us.json file.
-        container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
-    }
+
+    private static boolean loggedFirstRender = false;
 
     @SubscribeEvent
-    static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        SimpleSpaceFrameWork.LOGGER.info("HELLO FROM CLIENT SETUP");
-        SimpleSpaceFrameWork.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+    public static void onClientSetup(FMLClientSetupEvent event) {
+
+        // Initialize our Veil mesh + shader
+        VeilCubeRenderer.init();
+
+        // Register our world render callback on the main NeoForge event bus
+        NeoForge.EVENT_BUS.addListener(SimpleSpaceFrameWorkClient::renderLevel);
+
+        SimpleSpaceFrameWork.LOGGER.info("Registered Veil cube renderer on NeoForge.EVENT_BUS");
     }
+
+    public static void renderLevel(RenderLevelStageEvent event) {
+        if (event.getStage() != RenderLevelStageEvent.Stage.AFTER_SOLID_BLOCKS) {
+            return;
+        }
+
+        PoseStack poseStack = event.getPoseStack();
+
+        poseStack.pushPose();
+
+        // Render a cube at a fixed world position near spawn
+        double x = 0.5;
+        double y = 120.0;
+        double z = 0.5;
+
+        poseStack.translate(x, y, z);
+        poseStack.scale(1.0F, 1.0F, 1.0F);
+
+        if (!loggedFirstRender) {
+            SimpleSpaceFrameWork.LOGGER.info(
+                    "Rendering Veil test cube at world position ({}, {}, {})",
+                    x, y, z
+            );
+            loggedFirstRender = true;
+        }
+
+        VeilCubeRenderer.render(
+            poseStack,
+            event.getProjectionMatrix()
+        );
+
+        poseStack.popPose();
+    }
+
+
 }
