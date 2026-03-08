@@ -45,13 +45,17 @@ public class SimpleSpaceFrameWorkClient {
         net.minecraft.world.phys.Vec3 cam = event.getCamera().getPosition();
 
         poseStack.pushPose();
-
-        poseStack.translate(
-            x - cam.x,
-            y - cam.y,
-            z - cam.z
+        var camera = event.getCamera();
+        poseStack.mulPose(
+            new org.joml.Quaternionf(camera.rotation()).invert()
         );
 
+
+        poseStack.translate(
+            x-cam.x,
+            y-cam.y,
+            z-cam.z
+        );
 
         VeilCubeRenderer.render(poseStack, event.getProjectionMatrix());
 
